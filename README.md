@@ -3,22 +3,11 @@
 Lee un programa sencillo y muestra la ficha de cada peleador, con su
 record, su categoria segun el peso y porcentajes de victorias y finalizaciones.
 
-## Lenguaje
+## Imagen en Docker Hub
 
-    peleador "Nombre" peso 155;
-    victoria ko 5;
-    victoria sumision 3;
-    victoria decision 7;
-    derrota 2;
-    empate 1;
-    ficha;
+https://hub.docker.com/r/maush/mma-interprete
 
-## Correr
-
-    make
-    ./mma ejemplos/peleadores.mma
-
-## Docker
+Para ejecutarla.
 
     docker build -t mma-interprete .
     docker run --rm mma-interprete
